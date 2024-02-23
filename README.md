@@ -53,7 +53,7 @@ done
 
 ### Normalize audio levels across mp3 files
 
-Sometimes when you get audio files for example sentences, the audio levels are all over the place. This script uses [FFmpeg](https://ffmpeg.org/) to normalize the audio levels in the collection folder.
+Sometimes when you get audio files for example sentences, the audio levels are all over the place. This script uses [FFmpeg](https://ffmpeg.org/) to normalize the audio levels in the collection folder. Once again, please replace `/path/to/your/folder` with the actual path to your folder. If your files are of a different format, simply replace `.mp3` with the format of your choice, as long as it's supported by FFmpeg.
 
 ```bash
 #!/bin/bash
