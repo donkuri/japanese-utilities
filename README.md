@@ -24,7 +24,7 @@ This script was written with the help of [Kaanium](https://github.com/kaanium). 
 
 #### The script itself
 
-Simply save this script to a file ending in `.py` somewhere on your PC. Mine is called `to-writing-deck.py`.
+Simply save this script to a file ending in `.py` somewhere on your PC, or simply download it from the `Scripts` folder in this repository. Mine is called `to-writing-deck.py`.
 
 ```Python
 import csv
