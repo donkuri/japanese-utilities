@@ -8,14 +8,10 @@ reading_field = input("Enter the name of the field for the reading: ")
 sentence_field = input("Enter the name of the field for the sentence: ")
 
 # Prompt the user to input the path and name of the input deck file
-input_deck_path = input("Enter the path to the input deck file (CSV with tab separation): ")
-input_deck_file = input("Enter the name of the input deck file: ")
-input_file = os.path.join(input_deck_path, input_deck_file)
+input_file = input("Enter the full path (name included) to the input deck file: ")
 
 # Prompt the user to input the path and name of the output deck file
-output_deck_path = input("Enter the path to save the output deck file (CSV with tab separation): ")
-output_deck_file = input("Enter the name of the output deck file: ")
-output_file = os.path.join(output_deck_path, output_deck_file)
+output_file = input("Enter the full path (name included) where you want the output deck file to be saved: ")
 
 kakasi = pykakasi.kakasi()
 # Open the original CSV file with tab delimiter
