@@ -40,8 +40,7 @@ sentence_field = input("Enter the name of the field for the sentence: ")
 input_file = input("Enter the full path (name included) to the input deck file: ")
 
 # Prompt the user to input the path and name of the output deck file
-output_deck_path = 
-output_file = input("Enter the path where you want to save the output deck file (name included): ")
+output_file = input("Enter the full path (name included) where you want the output deck file to be saved: ")
 
 kakasi = pykakasi.kakasi()
 # Open the original CSV file with tab delimiter
